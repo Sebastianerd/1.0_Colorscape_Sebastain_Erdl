@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: cadetblue;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.Logo {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.Menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 12px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.hero {
+    margin-top: 75px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 60px;
+    border-radius: 55px;
+    box-shadow: 10px 20px 25px 2px gray;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero .right {
+    flex: 1;
+}
+
+.Carousel {
+    width: 100%;
+    height: auto;
+}
+
+.Carousel img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+
+.hero h3 {
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.hero p {
+    font-size: 17px;
+    font-family: monospace;
+}
+
+
+.Carousel img {
+    border-radius: 20px;
+   
+}
+
+.Carousel h5 {
+    color: black;
+}
+
+.Carousel p {
+    color: black;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+.card {
+    width: 18rem;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+    
+
+.Anmeldung {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 45px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 20px 25px 2px gray;
+}
+
+.Anmeldung input {
+    width: 280px;
+    height: 30px;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.Anmeldung p {
+    font-size: 17px;
+    font-family: monospace;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.Anmeldung div {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Anmeldung div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Anmeldung input [type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+
+.new-feature {
+        margin: 50px auto;
+        padding: 40px;
+        text-align: center;
+        background-color: #f8f9fa;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 80%;
+    }
+
+    .new-feature h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .new-feature p {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .new-feature .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+.Footer {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 25px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: lightgray;
+}
